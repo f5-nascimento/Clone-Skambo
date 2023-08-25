@@ -33,12 +33,21 @@ main{
 
 }
 
-.image{
+.agrupar{
 
+    width: 224px;
+    height: 216px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #skambo{
@@ -46,7 +55,8 @@ main{
     height: 91px;
 }
 
-.left > h1{
+
+.texto > h1{
 
     font-size: 26px;
     color: #fff;
@@ -54,11 +64,12 @@ main{
 
 }
 
-.left > h2{
+.texto > h2{
     
     font-size: 23px;
     color: #fff;
     font-weight: 500;
+   
 }
 
 .left > button{
