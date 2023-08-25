@@ -153,6 +153,8 @@ input{
     justify-content: center;
     flex-direction: column;
     padding-left: 40px;
+    outline: none;
+    border: 3px solid transparent;
 
 
 }
@@ -166,6 +168,10 @@ input::placeholder{
     top: 5%;
 
 
+}
+
+input:focus{
+    border-color: #36320A;
 }
 
 
