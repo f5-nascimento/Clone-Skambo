@@ -190,3 +190,10 @@ input:focus{
     border: none;
 
 }
+
+button:hover{
+
+    transition: background 1s;
+    background: #E2CE1A;
+
+}
