@@ -136,6 +136,7 @@ a{
  
     position: absolute;
     padding-left: 15px;
+    top: 20%;
 
 }
 
@@ -158,9 +159,12 @@ input{
 
 input::placeholder{
 
+    position: relative;
     color: #000000;
     font-size: 23px;
     font-weight: 700;
+    top: 5%;
+
 
 }
 
@@ -177,5 +181,6 @@ input::placeholder{
     height: 70px;
     margin-top: 15px;
     cursor: pointer;
+    border: none;
 
 }
